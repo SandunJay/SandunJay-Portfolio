@@ -8,6 +8,7 @@ import HRDevHubImage from "/public/HRDevHub.png";
 import DocPortalImage from "/public/DocPortal.png";
 import LearnCentralImage from "/public/LearnCentral.png";
 import FlicksterImage from "/public/Flickster.png";
+import OrbitNavigator from "/public/OrbitNavigator.png"
 
 const items = [
   {
@@ -21,13 +22,21 @@ const items = [
   {
     id: 2,
     color: "from-gray-700 to-gray-800",
+    title: "Orbit Navigator Space Blog",
+    desc: "Orbit Navigator Project merges space exploration with user-generated content. It features the latest NASA blogs, providing cutting-edge insights into space and astronomy. In addition, users can create and share their own blogs, offering a unique platform for space enthusiasts. The project combines MongoDB, Express, React, and Node.js to deliver a robust and interactive experience, where users can explore, contribute, and engage with a vibrant community of space lovers",
+    link: "https://github.com/SandunJay/DocPortal",
+    image: OrbitNavigator,
+  },
+  {
+    id: 3,
+    color: "from-gray-700 to-gray-800",
     title: "Kotlin Medical Center App",
     desc: "DocPortal is a robust Android application developed in Kotlin that serves as an efficient management tool for hospital employees. Built with an array of features, it simplifies hospital operations and enhances employee productivity.",
     link: "https://github.com/SandunJay/DocPortal",
     image: DocPortalImage,
   },
   {
-    id: 3,
+    id: 4,
     color: "from-gray-800 to-gray-900",
     title: "LearnCentral Digital Learning",
     desc: "LearnCentral is a robust web platform merging Spring Boot backend with React and Vite frontend, utilizing JWT authentication, email confirmation, and SMS alerts for secure access and resource management. Technologies used: - Spring Boot, - JWT, - React + Vite, - Docker.",
@@ -35,7 +44,7 @@ const items = [
     image: LearnCentralImage,
   },
   {
-    id: 4,
+    id: 5,
     color: "from-gray-900 to-gray-900",
     title: "Flickster Movie Streaming",
     desc: "I built a scalable online video streaming site with Java servlets, prioritizing OOP principles. Using Java and MySQL, we crafted a robust backend to manage user interactions and video content effectively, offering an immersive experience. Technologies: Java, JSP, JS.",
